@@ -39,6 +39,9 @@ public class Jumps {
             list.add(next - 2);
             next = route[next];
         }
+        if (next == 2) {
+            list.add(1);
+        }
         int l = 0;
         int r = list.size() - 1;
         while (l < r) {
