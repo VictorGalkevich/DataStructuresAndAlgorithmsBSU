@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class LPS {
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(new File("in.txt"));
+        Scanner scanner = new Scanner(new File("input.txt"));
         String init = scanner.next();
         FileWriter fw = new FileWriter("output.txt");
         String lps = lps(init);

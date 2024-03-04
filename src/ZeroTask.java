@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ZeroTask {
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(new File("in.txt"));
+        Scanner scanner = new Scanner(new File("input.txt"));
         Map<Integer, Boolean> map = new HashMap<>();
         long sum = 0;
         while (scanner.hasNextInt()) {

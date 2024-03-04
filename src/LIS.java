@@ -23,7 +23,7 @@ public class LIS {
         return res.size();
     }
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(new File("in.txt"));
+        Scanner scanner = new Scanner(new File("input.txt"));
         int n = scanner.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {

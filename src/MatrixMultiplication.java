@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MatrixMultiplication {
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(new File("in.txt"));
+        Scanner scanner = new Scanner(new File("input.txt"));
         int quantity = scanner.nextInt();
         int[] dim = new int[quantity + 1];
         dim[0] = scanner.nextInt();

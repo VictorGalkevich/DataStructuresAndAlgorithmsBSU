@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class LevenshtainDistance {
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(new File("in.txt"));
+        Scanner scanner = new Scanner(new File("input.txt"));
         int x = scanner.nextInt();
         int y = scanner.nextInt();
         int z = scanner.nextInt();
