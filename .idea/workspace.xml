@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3729dba0-8574-433e-872a-98ac1baf537c" name="Changes" comment="Task1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LevenshtainDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatrixMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnesOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SuffixArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZeroTask.java" afterDir="false" />
+    <list default="true" id="3729dba0-8574-433e-872a-98ac1baf537c" name="Changes" comment="dp + trees">
+      <change afterPath="$PROJECT_DIR$/bst.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huffman.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huffman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LISWithTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RoadBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jumps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jumps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructuresAndAlgorithmsBSU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAndAlgorithmsBSU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +64,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Jumps">
+  <component name="RunManager" selected="Application.IsHeap">
+    <configuration name="IsHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsHeap" />
+      <module name="DataStructuresAndAlgorithmsBSU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Jumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Jumps" />
       <module name="DataStructuresAndAlgorithmsBSU" />
@@ -88,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsHeap" />
         <item itemvalue="Application.LIS" />
         <item itemvalue="Application.Jumps" />
       </list>
@@ -115,6 +120,17 @@
       <workItem from="1707727721967" duration="3458000" />
       <workItem from="1707903987461" duration="14128000" />
       <workItem from="1708345137001" duration="6921000" />
+      <workItem from="1708406083175" duration="1975000" />
+      <workItem from="1708937408905" duration="12439000" />
+      <workItem from="1709117698889" duration="6174000" />
+      <workItem from="1709367805596" duration="2229000" />
+      <workItem from="1709568343323" duration="9113000" />
+      <workItem from="1710220925897" duration="18000" />
+      <workItem from="1710221028159" duration="1880000" />
+      <workItem from="1710404531493" duration="3227000" />
+      <workItem from="1710439318811" duration="60000" />
+      <workItem from="1710574859457" duration="4943000" />
+      <workItem from="1710580129604" duration="2980000" />
     </task>
     <task id="LOCAL-00001" summary="Task1">
       <option name="closed" value="true" />
@@ -124,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703838107167</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dp done">
+      <option name="closed" value="true" />
+      <created>1708406116109</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708406116109</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dp + trees">
+      <option name="closed" value="true" />
+      <created>1709571379783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709571379783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,14 +164,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task1" />
+    <MESSAGE value="dp done" />
+    <MESSAGE value="dp + trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp + trees" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
+          <line>72</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -172,6 +206,21 @@
           <line>38</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinomialHeap.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ZeroTask.java</url>
           <line>8</line>
@@ -198,6 +247,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/RoadBuilding.java</url>
+          <line>29</line>
+          <properties class="RoadBuilding" method="union">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LISWithTree.java</url>
+          <line>8</line>
+          <properties class="LISWithTree" method="lis">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
