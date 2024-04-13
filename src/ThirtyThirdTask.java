@@ -8,10 +8,10 @@ import java.util.Deque;
 import java.util.Scanner;
 
 public class ThirtyThirdTask {
-    private static final Long MAX = Long.MAX_VALUE;
-    private static Node MIN = new Node();
-    private static Node ROOT = null;
-    private static StringBuilder builder = new StringBuilder();
+    public static final Long MAX = Long.MAX_VALUE;
+    public static Node MIN = new Node();
+    public static Node ROOT = null;
+    public static StringBuilder builder = new StringBuilder();
 
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(new File("input.txt"));
@@ -112,7 +112,7 @@ public class ThirtyThirdTask {
                     node.min = Math.min(node.left.min, node.right.min);
                 }
             }
-            if (node.length > MIN.length || (node.length == MIN.length && node.min < MIN.min)) {
+            if (node.length > MIN.length || (node.length == MIN.length && node.val < MIN.val)) {
                 MIN = node;
             }
         }

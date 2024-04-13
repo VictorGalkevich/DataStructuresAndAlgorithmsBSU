@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3729dba0-8574-433e-872a-98ac1baf537c" name="Changes" comment="tasks">
-      <change afterPath="$PROJECT_DIR$/src/KmpSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirtyThirdTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LISWithTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LISWithTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThirtyThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirtyThirdTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IsHeap">
     <configuration name="IsHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IsHeap" />
       <module name="DataStructuresAndAlgorithmsBSU" />
@@ -147,7 +144,7 @@
       <workItem from="1711976096322" duration="9030000" />
       <workItem from="1712218774055" duration="3206000" />
       <workItem from="1712236655979" duration="598000" />
-      <workItem from="1712753252985" duration="11448000" />
+      <workItem from="1712753252985" duration="17902000" />
     </task>
     <task id="LOCAL-00001" summary="Task1">
       <option name="closed" value="true" />
@@ -245,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710705686187</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tasks">
+      <option name="closed" value="true" />
+      <created>1712781668451</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712781668451</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,14 +317,14 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ThirtyThirdTask.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="40" />
+          <url>file://$PROJECT_DIR$/src/Testing.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ThirtyThirdTask.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="45" />
+          <line>23</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ZeroTask.java</url>
@@ -368,5 +373,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ThirtyThirdTask$Node" memberName="height" />
+        <PinnedItemInfo parentTag="ThirtyThirdTask$Node" memberName="length" />
+        <PinnedItemInfo parentTag="ThirtyThirdTask$Node" memberName="sum" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

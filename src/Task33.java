@@ -8,11 +8,11 @@ import java.util.Deque;
 import java.util.Scanner;
 
 public class Task33 {
-    private static final Long MAX = Long.MAX_VALUE;
-    private static CringeNode MIN = new CringeNode();
-    private static CringeNode ROOT = null;
-    private static StringBuilder builder = new StringBuilder();
-    public static void main(String[] args) throws IOException {
+    public static final Long MAX = Long.MAX_VALUE;
+    public static CringeNode MIN = new CringeNode();
+    public static CringeNode ROOT = null;
+    public static StringBuilder builder = new StringBuilder();
+    /*public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(new File("input.txt"));
         while (scanner.hasNext()) {
             insert(scanner.nextLong());
@@ -26,7 +26,7 @@ public class Task33 {
         writer.write(builder.toString().trim());
         writer.flush();
         writer.close();
-    }
+    }*/
 
     public static void cut(CringeNode node) {
         if (MIN.length % 2 == 1) {
@@ -48,7 +48,6 @@ public class Task33 {
             Arrays.sort(arr, Comparator.comparingLong(x -> x.val));
             CringeNode toD = arr[(int) (MIN.length / 2)];
             delete(toD.val, node);
-            System.out.println();
         }
     }
 
