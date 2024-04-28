@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3729dba0-8574-433e-872a-98ac1baf537c" name="Changes" comment="tasks">
+      <change afterPath="$PROJECT_DIR$/input.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HopcroftKarpAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListAdjBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Machines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixAdjBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RootTreeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task33.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThirtyThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirtyThirdTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +50,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -63,16 +72,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsHeap">
-    <configuration name="IsHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IsHeap" />
+  <component name="RunManager" selected="Application.BinarySequences">
+    <configuration name="BinarySequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySequences" />
       <module name="DataStructuresAndAlgorithmsBSU" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Jumps" />
+    <configuration name="IsHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsHeap" />
       <module name="DataStructuresAndAlgorithmsBSU" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,12 +101,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatrixToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixToArray" />
+      <module name="DataStructuresAndAlgorithmsBSU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySequences" />
+        <item itemvalue="Application.MatrixToArray" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.IsHeap" />
         <item itemvalue="Application.LIS" />
-        <item itemvalue="Application.Jumps" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +162,16 @@
       <workItem from="1712218774055" duration="3206000" />
       <workItem from="1712236655979" duration="598000" />
       <workItem from="1712753252985" duration="17902000" />
+      <workItem from="1713019936139" duration="205000" />
+      <workItem from="1713169674541" duration="2632000" />
+      <workItem from="1713173249564" duration="809000" />
+      <workItem from="1713512552639" duration="2715000" />
+      <workItem from="1713700342016" duration="3423000" />
+      <workItem from="1713776429417" duration="25000" />
+      <workItem from="1713780099803" duration="768000" />
+      <workItem from="1713849896498" duration="15882000" />
+      <workItem from="1713899318334" duration="8275000" />
+      <workItem from="1714245203698" duration="9532000" />
     </task>
     <task id="LOCAL-00001" summary="Task1">
       <option name="closed" value="true" />
@@ -250,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712781668451</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="tasks">
+      <option name="closed" value="true" />
+      <created>1713019978942</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713019978942</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,13 +312,13 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2.java</url>
-          <line>72</line>
+          <url>file://$PROJECT_DIR$/src/HopcroftKarpAlgorithm.java</url>
+          <line>49</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/HopcroftKarpAlgorithm.java</url>
+          <line>17</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -326,6 +361,31 @@
           <line>23</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RootTreeBuilder.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BFS.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Machines.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Machines.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ZeroTask.java</url>
           <line>8</line>
@@ -361,15 +421,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/BinarySequences.java</url>
-          <line>72</line>
-          <properties class="BinarySequences" method="getDirection">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
