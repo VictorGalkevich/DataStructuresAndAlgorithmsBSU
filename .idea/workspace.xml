@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3729dba0-8574-433e-872a-98ac1baf537c" name="Changes" comment="tasks">
-      <change afterPath="$PROJECT_DIR$/input.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HopcroftKarpAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListAdjBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Machines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatrixAdjBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatrixToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RootTreeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cilinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -172,6 +165,7 @@
       <workItem from="1713849896498" duration="15882000" />
       <workItem from="1713899318334" duration="8275000" />
       <workItem from="1714245203698" duration="9532000" />
+      <workItem from="1714302284462" duration="7080000" />
     </task>
     <task id="LOCAL-00001" summary="Task1">
       <option name="closed" value="true" />
@@ -285,7 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713019978942</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="tasks">
+      <option name="closed" value="true" />
+      <created>1714302300281</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714302300281</updated>
+    </task>
+    <task id="LOCAL-00016" summary="tasks">
+      <option name="closed" value="true" />
+      <created>1714302319026</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714302319027</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +313,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>17</line>
+          <line>117</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
