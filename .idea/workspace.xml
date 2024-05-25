@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3729dba0-8574-433e-872a-98ac1baf537c" name="Changes" comment="tasks">
-      <change afterPath="$PROJECT_DIR$/src/BruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySequences">
+  <component name="RunManager">
     <configuration name="BinarySequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySequences" />
       <module name="DataStructuresAndAlgorithmsBSU" />
@@ -164,6 +168,11 @@
       <workItem from="1714302284462" duration="7080000" />
       <workItem from="1715060914658" duration="96000" />
       <workItem from="1715079918402" duration="3210000" />
+      <workItem from="1715537396713" duration="59000" />
+      <workItem from="1715859376313" duration="1167000" />
+      <workItem from="1716020267183" duration="18000" />
+      <workItem from="1716022300294" duration="789000" />
+      <workItem from="1716619465577" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="Task1">
       <option name="closed" value="true" />
@@ -301,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715060929040</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="tasks">
+      <option name="closed" value="true" />
+      <created>1715537408698</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715537408698</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +336,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>117</line>
+          <line>66</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -401,11 +418,6 @@
           <url>file://$PROJECT_DIR$/src/Machines.java</url>
           <line>49</line>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BruteForce.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ZeroTask.java</url>

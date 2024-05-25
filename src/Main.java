@@ -1,118 +1,67 @@
-import java.io.*;
-import java.util.StringTokenizer;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.*;
+
+class Job {
+    int arrivalTime;
+    int executionTime;
+    int pos;
+
+    public Job(int arrivalTime, int executionTime, int pos) {
+        this.arrivalTime = arrivalTime;
+        this.executionTime = executionTime;
+        this.pos = pos;
+    }
+}
 
 public class Main {
-    static int components;
+    static int minFee = Integer.MAX_VALUE;
+    static Job[] bestOrder;
 
     public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(new File("input.txt"));
 
-        try (PrintWriter writer = new PrintWriter("output.txt")) {
+        int n = scanner.nextInt();
 
-            FastReader scanner = new FastReader();
+        Job[] jobs = new Job[n];
 
-            int n = scanner.nextInt();
-            int m = scanner.nextInt();
-            int q = scanner.nextInt();
-            int[] parents = new int[n + 1];
-            int[] sizes = new int[n + 1];
-            int[] from = new int[m + 1];
-            int[] to = new int[m + 1];
-            boolean[] rem = new boolean[m + 1];
-            int[] order = new int[q + 1];
-            components = n;
-
-            for (int i = 1; i <= n; i++) {
-                sizes[i] = 1;
-                parents[i] = i;
-            }
-
-            for (int i = 1; i <= m; i++) {
-                from[i] = scanner.nextInt();
-                to[i] = scanner.nextInt();
-            }
-
-            for (int i = 1; i <= q; i++) {
-                int index = scanner.nextInt();
-                rem[index] = true;
-                order[i] = index;
-            }
-
-
-            for (int i = 1; i <= m; i++) {
-                if (!rem[i]) {
-                    union(from[i], to[i], sizes, parents);
-                }
-            }
-
-            if (components == 1) {
-                for (int i = 0; i < q; i++) {
-                    writer.print("1");
-                }
-                return;
-            }
-
-            StringBuilder stringBuilder = new StringBuilder();
-
-            for (int i = q; i >= 1; i--) {
-                union(from[order[i]], to[order[i]], sizes, parents);
-                if (components == 1) {
-                    stringBuilder.append(0);
-                    for (int j = i - 1; j >= 1 ; j--) {
-                        stringBuilder.append(1);
-                    }
-                    break;
-                }
-                else {
-                    stringBuilder.append(0);
-                }
-            }
-
-            writer.print(stringBuilder.reverse());
-
+        for (int i = 0; i < n; i++) {
+            jobs[i] = new Job(scanner.nextInt(), scanner.nextInt(), i + 1);
         }
 
+        Arrays.sort(jobs, Comparator.comparingInt(a -> a.arrivalTime));
+
+        dfs(jobs, new Job[jobs.length], new boolean[jobs.length], 0, 0, 0);
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(minFee).append("\n");
+        for (Job job : bestOrder) {
+            sb.append(job.pos).append(" ");
+        }
+        PrintWriter pw = new PrintWriter("output.txt");
+        pw.write(sb.toString().trim());
+        pw.flush();
+        pw.close();
     }
 
-    private static void union(int u, int v, int[] sizes, int[] parents) {
-        int root1 = findRoot(u, parents);
-        int root2 = findRoot(v, parents);
-        if (root1 == root2) return;
-        if (sizes[root1] < sizes[root2]) {
-            int temp = root2;
-            root2 = root1;
-            root1 = temp;
-        }
-        parents[root2] = root1;
-        sizes[root1] += sizes[root2];
-        components--;
-    }
+    static void dfs(Job[] jobs, Job[] order, boolean[] used, int idx, int currentTime, int totalFee) {
+        if (totalFee >= minFee) return;
 
-    private static int findRoot(int x, int[] parents) {
-        if (x == parents[x]) return x;
-        return findRoot(parents[x], parents);
-    }
-
-    public static class FastReader {
-        BufferedReader br;
-        StringTokenizer st;
-
-        public FastReader() throws FileNotFoundException {
-            br = new BufferedReader(new FileReader("input.txt"));
+        if (idx == jobs.length) {
+            minFee = totalFee;
+            bestOrder = order.clone();
+            return;
         }
 
-        String next() {
-            while (st == null || !st.hasMoreElements()) {
-                try {
-                    st = new StringTokenizer(br.readLine());
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-            return st.nextToken();
-        }
+        for (int i = 0; i < jobs.length; i++) {
+            if (used[i]) continue;
 
-        int nextInt() {
-            return Integer.parseInt(next());
+            used[i] = true;
+            order[idx] = jobs[i];
+            int startTime = Math.max(currentTime, jobs[i].arrivalTime);
+            dfs(jobs, order, used, idx + 1, startTime + jobs[i].executionTime, totalFee + startTime - jobs[i].arrivalTime);
+            used[i] = false;
         }
     }
 }
