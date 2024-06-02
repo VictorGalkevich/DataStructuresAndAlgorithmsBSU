@@ -57,6 +57,7 @@ public class BruteForce {
                 long prev = record;
                 record += curr - from[i];
 
+
                 if (record < prev) {
                     record = prev;
                 }
